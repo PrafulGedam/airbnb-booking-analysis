@@ -65,11 +65,17 @@ name’ = 16 Missing values.
 
 ### Conclusion
 80% of the hosts are in Manhattan and Brooklyn
+
 Sonder(NYC) and Blue ground has most number of host listings
+
 Most of the people likes Queens and Manhattan
+
 Even with moderate number of hosts in Queens, it generated the highest revenue out of all the neighborhood group
+
 Most of the guests prefer cheaper price
+
 Dona and Ji are the busiest hosts
+
 About 90% of the guests prefer entire home/apt or private room room types.
 
 
