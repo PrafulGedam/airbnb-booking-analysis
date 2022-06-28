@@ -2,20 +2,25 @@
 ### EDA for Airbnb Bookings Analysis
 
 #### Index
-1.Installation
+Introduction.
 
-2.Dataset
+2) Data Exploration.
 
-3.Project Motivation
+3) Missing value Handling.
 
-4.Data Preparation
+4) Exploratory Data Analysis.
+Univariate Analysis.
+Multivariate Analysis.
 
-5.File Descriptions
+5) Conclusion.
 
-6.Conclusion
 
-### Installation
-For Airbnb_NYC_2019, the most important library is Python along side we need some other library like numpy, pandas, seaborn and matplotlib. It is necessaryto install all packages for analysis and building models.
+
+
+
+### Introduction
+Since 2008, guests and hosts have used Airbnb to expand on traveling possibilities and present a more unique, personalized way of experiencing the world. ![image](https://user-images.githubusercontent.com/104565229/176123120-24592834-d741-4bc0-a75b-5e176a016d3a.png)
+
 
 #### Dataset
 Airbnb dataset contains data on listings with a huge number of features, user's reviews and calendar info for Airbnb homes.
