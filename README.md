@@ -71,5 +71,5 @@ Even with moderate number of hosts in Queens, it generated the highest revenue o
 Most of the guests prefer cheaper price
 Dona and Ji are the busiest hosts
 About 90% of the guests prefer entire home/apt or private room room types.
-![image](https://user-images.githubusercontent.com/104565229/176124770-8b8f3d59-89b9-4666-a636-928ecc535a9e.png)
+
 
