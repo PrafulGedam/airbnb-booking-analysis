@@ -62,21 +62,14 @@ name’ = 16 Missing values.
 #### Exploratory Data Analysis.
 ![image](https://user-images.githubusercontent.com/104565229/176124430-c0897c74-e962-4cf4-839d-489818e59a1a.png)
 
-#### Handling Null values:
-Columns like reviews_per_month has 10052 missing value or can say that null values. It is very important feature for data analysis. On other hand columns like name, last review also has missing values but we can drop it from dataset
 
-#### Lokking for outliers
 ### Conclusion
-The people who prefer to stay in Entire home or Apartment they are going to stay bit longer in that particular Neighbourhood only.
+80% of the hosts are in Manhattan and Brooklyn
+Sonder(NYC) and Blue ground has most number of host listings
+Most of the people likes Queens and Manhattan
+Even with moderate number of hosts in Queens, it generated the highest revenue out of all the neighborhood group
+Most of the guests prefer cheaper price
+Dona and Ji are the busiest hosts
+About 90% of the guests prefer entire home/apt or private room room types.
+![image](https://user-images.githubusercontent.com/104565229/176124770-8b8f3d59-89b9-4666-a636-928ecc535a9e.png)
 
-The people who prefer to stay in Private room they won't stay longer as compared to Home or Apartment.
-
-Most people prefer to pay less price.
-
-If there are more number of Reviews for particular Neighbourhood group that means that place is a tourist place.
-
-We put good use of our latitude and longitude columns and used to create a geographical heatmap color-coded by the price of listings.
-
-Except for Manhattan, in all the neighbourhood groups, 'Entire home/apt' is the room type that gets most traffic.
-
-We can conclude that throughout NewYork city there is a larger preference towards Entire apt as compared to private or shared rooms irrespective to the prices hence the Traffic there are most.
