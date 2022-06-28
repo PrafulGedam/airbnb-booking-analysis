@@ -19,27 +19,48 @@ Multivariate Analysis.
 
 
 ### Introduction
-Since 2008, guests and hosts have used Airbnb to expand on traveling possibilities and present a more unique, personalized way of experiencing the world. ![image](https://user-images.githubusercontent.com/104565229/176123120-24592834-d741-4bc0-a75b-5e176a016d3a.png)
+Since 2008, guests and hosts have used Airbnb to expand on traveling possibilities and present a more unique, personalized way of experiencing the world. 
+This dataset has around 49,000 observations in it with 16 columns and it is a mix between categorical and numeric values
 
 
-#### Dataset
-Airbnb dataset contains data on listings with a huge number of features, user's reviews and calendar info for Airbnb homes.
+### Data exploration
+ There are 16 columns and 48895 rows present in dataset.
+ 
+ This dataset has around is mix between categorical and numeric values.
 
-#### Motivation
-The reason behind choosing this dataset are:
+ Price is a dependent column.
 
-1.How well can we predict a listing's price and what features correlate well with the pricing?
+ Min of Price variable is 0, max is 10000$.
 
-2.Where to invest in a property in Boston to get the maximum number of returns from Airbnb?
+ Mean price is 152.72 $
 
-3.How well can we predict reviews and what aspects are correlated with the reviews?
+ On an average people stay 7 days in a room.
 
-#### Data Preparation
-In this dataset, there are 48895 entries and 16 features (Columns )
+ 75 Percentage of times minimum nights stayed is 5.
 
-10 out of 16 are numeric: ['id', 'host_id', 'latitude', 'longitude', price, 'number_of_reviews' 'reviews_per_month', 'calculated_host_listings_count', 'availability_365' ]
+ Mean reviews given to Room/apartment is 23.
 
-6 out of 16 are categorical: [ 'name', 'host_name', 'neighbourhood_group' 'neighbourhood','room_type','minimum_nights', 'last_review']
+
+
+
+#### Missing value handling
+name’ = 16 Missing values.
+
+ ‘host_name’ = 21 missing values.
+
+ ‘last_review’ = 10052 missing values.
+
+ ‘reviews_per_month’ = 10052 missing values.
+
+ ‘name’ column we will replaced the ‘missing’ values by the use of fillna().
+
+ ‘host_name’ will replaced the ‘missing’ values by use of fillna().
+
+
+
+
+#### Exploratory Data Analysis.
+![image](https://user-images.githubusercontent.com/104565229/176124430-c0897c74-e962-4cf4-839d-489818e59a1a.png)
 
 #### Handling Null values:
 Columns like reviews_per_month has 10052 missing value or can say that null values. It is very important feature for data analysis. On other hand columns like name, last review also has missing values but we can drop it from dataset
